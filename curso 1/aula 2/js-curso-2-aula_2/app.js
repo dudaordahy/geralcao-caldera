@@ -42,3 +42,23 @@ function limparCampo(){
     chute = document.querySelector('input');
     chute.value = '';
 }
+
+function reiniciarJogo(){
+    numero = gerarNumero();
+    limparCampo();
+    tentativas = 1;
+    exibirMensagemInicial();
+    document.getElementById('reiniciar').setAttribute('disabled', true)
+}
+
+
+
+
+
+
+
+
+
+
+
+
